@@ -1,0 +1,130 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+   
+}
+
+#naveg {
+    display: flex;
+    height: 3rem;
+    gap: 1rem;
+    justify-content: flex-end;
+    align-items: flex-end;
+    border-bottom: 2px solid #56B28033;
+    background-color: rgb(0, 0, 0);
+}
+
+
+input[type=pesquisa] {
+    height: 3rem;
+    width: 20rem;
+    background-color: #fff;
+}
+#botao {
+    border: none;
+    color: aliceblue;
+    background-color: #337AB7;
+    height: 3rem;
+    width: 8rem;
+    border-radius: 0.2rem;
+    font-size: 16px;
+}
+
+#opcoes {
+    display: flex;
+    justify-content: center;
+    list-style: none;
+    height: 3rem;
+    background-color: #337AB7;
+    color: #fff;
+    align-items: center;
+    gap: 5rem;
+}
+
+#txt-opcoes {
+    display: flex;
+    align-items: center;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 24px;
+    color: #fff;
+}
+
+
+footer {
+    background-color: #337AB7;
+    color: #fff;
+    height: 5rem;
+    padding: 20px;
+    text-align: center;
+  }
+  
+.footer-seleçao {
+    margin-bottom: 20px;
+  }
+  
+#naveg-contato { 
+    display: flex;
+    height: 3rem;
+    gap: 1rem;
+    justify-content: center;
+    align-items: center;
+    margin-top: 1.5rem;
+}
+
+#enviar-contato {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 20px;
+    gap: 0.5rem;
+}
+
+#botao-contato {
+    justify-content: center;
+    align-items: center;
+    width: 7rem;   
+}
+
+#equipe {
+    background-color: rgb(20, 117, 69);
+}
+
+#titulo {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #fff;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+#equipe-txt {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 20px;
+    gap: 0.5rem;
+    color: #fff;
+}
+
+#titulo-problema-solucao {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    margin-top: 1rem;
+}
+
+#txt-problema-solucao {
+    font-size: 20px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    justify-content: center;
+    text-align: justify;
+    padding: 1rem;
+}
+
+#txt-motivaca {
+    margin-left: 2rem;
+}
